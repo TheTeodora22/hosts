@@ -27,3 +27,4 @@ while read -r in ip host; do
 	fi
 	validate_ip "$host" "$ip" "$dns"
 done < /etc/host
+echo "Student: A"
